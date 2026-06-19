@@ -1,0 +1,12 @@
+const PI_VALUE = 3.14;
+console.log(PI_VALUE);
+var accountPass = 1000;
+var accountPass = 2000;
+accountPass = 3000;
+console.log(accountPass);
+// let accountBalance = 5000;
+// accountBalance = 6000;
+// console.log(accountBalance);
+let accountPassword = 1000;
+// accountPassword = 2000;
+console.log(accountPassword);
