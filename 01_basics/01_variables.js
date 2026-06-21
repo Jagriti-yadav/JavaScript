@@ -10,3 +10,7 @@ console.log(accountPass);
 let accountPassword = 1000;
 // accountPassword = 2000;
 console.log(accountPassword);
+var a;
+console.log(a);
+let b;
+console.log(b);
