@@ -12,3 +12,5 @@ console.log(person.age);  // 21
 //Modifying Properties
 person.age = 22;
 console.log(person.age); // 22
+console.log(person["name"]); // Jagriti
+console.log(person["age"]);  // 22
