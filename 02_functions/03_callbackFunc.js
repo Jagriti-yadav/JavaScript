@@ -11,3 +11,14 @@ function sayBye() {
 }
 
 greet("Jagriti", sayBye);
+
+//Callback with Arrow Function
+
+function greet(name, callback) {
+    console.log("Hello " + name);
+    callback();
+}
+
+greet("Jagriti", () => {
+    console.log("Welcome!");
+});
