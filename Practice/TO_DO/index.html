@@ -1,22 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="style.css" rel="stylesheet">
-</head>
-<body>
-  <div class="container">
-    <h1>TO DO</h1>
-    <ul>
-      <li>Task 1</li>
-      <li>Task 2</li>
-      <li>Task 3</li>
-    </ul>
-  </div>
-</body>
-</html>
-  </ul>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TO DO List</h1>
+      <div class="input-container">
+        <input type="text" id="taskInput" placeholder="add task" />
+        <button id="addTaskBtn">Add</button>
+      </div>
+
+      <ul id="taskList">
+        <li class="task-item">
+          <div class="task-left">
+            <input type="checkbox" />
+            <span>Sample Task</span>
+          </div>
+          <button class="delete-btn">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
