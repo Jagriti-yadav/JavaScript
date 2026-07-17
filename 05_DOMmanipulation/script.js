@@ -16,3 +16,27 @@ document.getElementById("welcome").addEventListener("mouseenter",()=>{
   document.getElementById("welcome").style.backgroundColor="lightblue";
   
 });
+
+
+//  setInterval and clearInterval 
+
+let intervalId = null;
+
+function nameFunc() {
+  console.log("Jagriti");
+}
+
+function setInt() {
+  if (intervalId === null) {
+    intervalId = setInterval(nameFunc, 1000);
+  }
+}
+
+function stopFunc() {
+  clearInterval(intervalId);
+  intervalId = null;
+  console.log("Stopped");
+}
+
+document.getElementById("start").addEventListener("click", setInt);
+document.getElementById("stop").addEventListener("click", stopFunc);
